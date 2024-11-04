@@ -1,0 +1,124 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* General Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.header-content .logo {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.emergency-contact {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #ff4d4d;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Services Section */
+#services {
+    margin: 2rem 0;
+    width: 90%;
+    max-width: 800px;
+    text-align: left;
+}
+
+#services h2 {
+    color: #0073e6;
+}
+
+/* Contact Form Section */
+#contact {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    margin: 2rem 0;
+}
+
+#contact h2 {
+    color: #0073e6;
+}
+
+#contact-form label, #contact-form input, #contact-form button {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#contact-form input, #contact-form button {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #0073e6;
+    color: white;
+    font-weight: bold;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #f0f8ff;
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#testimonials blockquote {
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+footer nav a {
+    color: #bbb;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: white;
+}

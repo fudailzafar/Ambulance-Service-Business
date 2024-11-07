@@ -3,12 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ambulance Service</title>
+    <title>Prince Ambulance | Networksism</title>
     <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,112 +19,106 @@
       referrerpolicy="no-referrer"
     />
   </head>
+
   <body>
-    <header>
-      <a href="#" class="logo"
-        ><i class="bx bxs-ambulance"></i
-        ><span>Prince Ambulance Services</span></a
-      >
-
-      <ul class="navbar">
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-      </ul>
-
-      <div class="main">
-        <a href="#contact" class="user"
-          ><i class="bx bxs-phone-call"></i>Call Us</a
-        >
-        <i class="bx bx-menu" id="menu-icon"></i>
-      </div>
-    </header>
-
-    <section class="home" id="home">
-      <div class="content">
-        <div class="content-text">
-          <h1>24/7 Emergency Ambulance Service</h1>
-          <h2>A/C Luxury Ambulance | ICU on Wheels</h2>
-          <p>+91 99401 42346 | +91 91716 23450 | +91 98406 87303</p>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="#" alt="Logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#testimonials">TESTIMONIALS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Prince Ambulance Services</h1>
+        <p>
+          A/C Luxury Ambulance | ICU on Wheels <br />
+          (Alfobed Oxygen Attached)
+        </p>
+        <a href="contact.html" class="hero-btn">Emergency? Call right away!</a>
       </div>
     </section>
 
-    <section class="services" id="services"></section>
+    <!-- COURSE -->
+    <section class="course" id="services">
+      <h1>Services We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-    <section class="location">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15554.365967536241!2d80.10761262072313!3d12.933956735071114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fe19c091039%3A0xe917610123cd8eb!2sPrince%20Ambulance%20services!5e0!3m2!1sen!2sin!4v1730971415123!5m2!1sen!2sin"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </section>
-
-    <section class="contact-us" id="contact">
       <div class="row">
-        <div class="contact-col">
-          <div>
-            <i class="fa fa-home"></i>
-            <span>
-              <h5>XYZ Road, ABC Building</h5>
-              <p>Chennai, Tamil Nadu, IN</p>
-            </span>
-          </div>
-          <div>
-            <i class="fa fa-phone"></i>
-            <span>
-              <h5>+91 99401 42346</h5>
-              <p>24/7 Availability</p>
-            </span>
-          </div>
-          <div>
-            <i class="fa fa-regular fa-envelope"></i>
-            <span>
-              <h5>hemkumar.jasmin@gmail.com</h5>
-              <p>Email us your query</p>
-            </span>
-          </div>
+        <div class="course-col">
+          <h3>Mortuary Vans</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            necessitatibus assumenda, fugit, qui iure magnam repellendus
+            voluptatem minus velit nobis nisi eum! Vel adipisci dicta delectus
+            modi animi cum ipsum.
+          </p>
         </div>
-        <div class="contact-col">
-          <form action="form-handler.php" method="post" netlify>
-            <input
-              type="text"
-              name="name"
-              placeholder="Enter your name"
-              required
-            />
-            <input
-              type="email"
-              name="name"
-              placeholder="Enter email address"
-              required
-            />
-            <input
-              type="text"
-              name="subject"
-              placeholder="Enter your subject"
-              required
-            />
-            <textarea
-              rows="8"
-              name="message"
-              placeholder="Message"
-              required
-            ></textarea>
-            <button type="submit" class="hero-btn red-btn">Send Message</button>
-          </form>
+        <div class="course-col">
+          <h3>Emabalming</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            necessitatibus assumenda, fugit, qui iure magnam repellendus
+            voluptatem minus velit nobis nisi eum! Vel adipisci dicta delectus
+            modi animi cum ipsum.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Freezer Box</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            necessitatibus assumenda, fugit, qui iure magnam repellendus
+            voluptatem minus velit nobis nisi eum! Vel adipisci dicta delectus
+            modi animi cum ipsum.
+          </p>
         </div>
       </div>
     </section>
 
+    <!-- facitlities -->
+
+    <section class="facilities">
+      <h1>Other Facilities</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" />
+          <h3>Ventilator Services</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo
+            placeat dolores quod cupiditate nam
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" />
+          <h3>Body Storage</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo
+            placeat dolores quod cupiditate nam
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" />
+          <h3>Body Transport by Air</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo
+            placeat dolores quod cupiditate nam
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
     <section class="testimonials" id="testimonials">
-      <h1>What Our Clients Say</h1>
-      <p>Check out the reviews of our previous clients!</p>
+      <h1>What Our Clients Says</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <div class="row">
         <div class="testimonial-col">
           <img src="images/user1.jpg" alt="" />
@@ -166,10 +156,51 @@
       </div>
     </section>
 
-    <footer></footer>
+    <!-- call to action -->
+    <section class="cta">
+      <h1>
+        Contact us immediately<br />
+        for a super fast service!
+      </h1>
+      <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
 
-    <!-- JavaScript Link -->
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quae
+        amet est odit quidem necessitatibus<br />
+        adipisci commodi autem nemo consectetur, doloremque ea voluptatum
+        sapiente! Voluptatibus debitis dignissimos nulla accusantium
+        praesentium?
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/"
+          ><i class="fa fa-brands fa-square-facebook"></i
+        ></a>
+        <a href="https://x.com/"
+          ><i class="fa fa-brands fa-square-x-twitter"></i
+        ></a>
+        <a href="https://instagram.com/"
+          ><i class="fa fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://linkedin.com/"
+          ><i class="fa fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <p>Made with <i class="fa fa-regular fa-heart"></i> by Networksism</p>
+    </section>
 
-    <script type="text/javascript" src="script.js"></script>
+    <!------JavaScript for Toggle Menu ---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>

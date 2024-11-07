@@ -266,6 +266,12 @@ header {
     padding: 80px 0;
 }
 
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .location iframe {
     width: 100%;
 }

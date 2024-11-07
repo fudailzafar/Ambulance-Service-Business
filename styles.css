@@ -222,7 +222,7 @@ header {
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #222327;
+    background: var(--main-color);
     padding: 25px;
     cursor: pointer;
     display: flex;

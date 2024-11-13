@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -56,7 +58,7 @@ nav img {
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 17px;
 }
 
 .nav-links ul li::after {
@@ -84,12 +86,12 @@ nav img {
 }
 
 .text-box h1 {
-    font-size: 62px;
+    font-size: 65px;
 }
 
 .text-box p {
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -102,6 +104,7 @@ nav img {
     background: transparent;
     position: relative;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .hero-btn:hover {
@@ -116,7 +119,11 @@ nav .fa {
 
 @media(max-width: 700px) {
     .text-box h1 {
-        font-size: 20px;
+        font-size: 35px;
+    }
+
+    .text-box p {
+        font-size: 15px;
     }
 
     .nav-links ul li {
@@ -325,7 +332,7 @@ h3 {
 
 @media(max-width: 700px) {
     .cta h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 

@@ -75,7 +75,11 @@
           <div>
             <i class="fa fa-regular fa-envelope"></i>
             <span>
-              <h5 id="email-section"><a  href="mailto:hemkumar.jasmin@gmail.com">hemkumar.jasmin@gmail.com</a></h5>
+              <h5 id="email-section">
+                <a href="mailto:hemkumar.jasmin@gmail.com"
+                  >hemkumar.jasmin@gmail.com</a
+                >
+              </h5>
               <p>Email us your query</p>
             </span>
           </div>
@@ -83,29 +87,38 @@
         <!-- ******************
         FORM
         ****************** -->
-        <div class="contact-col">
-              <form action="https://formspree.io/f/mkgnzwao" method="post">
+        <div class="contact-col form-container">
+          <h2>Contact Us</h2>
+          <form action="https://formspree.io/f/xbljkjdo" method="post">
+            <label for="Name">Full Name:</label>
             <input
               type="text"
               name="Name"
-              placeholder="Enter your name"
+              id="Name"
+              placeholder="E.g, Rajesh Kumar"
               required
             />
+            <label for="Number">Phone Number:</label>
             <input
               type="number"
               name="Number"
-              placeholder="Enter your phone number"
+              id="Number"
+              placeholder="E.g, 919940142346"
               required
             />
+            <label for="Location">Location:</label>
             <input
               type="text"
               name="Location"
-              placeholder="Enter your location"
+              id="Location"
+              placeholder="E.g, West Tambaram, Chennai, Tamil Nadu- 600 04"
               required
             />
+            <label for="Message">Message:</label>
             <textarea
               rows="8"
               name="Message"
+              id="Message"
               placeholder="Message"
               required
             ></textarea>

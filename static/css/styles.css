@@ -341,6 +341,25 @@ h3 {
     }
 }
 
+
+.form-container{
+    /* background-color: black; */
+    padding:0 0 0 20px;
+}
+.form-container h2 {
+   
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:#f44336;
+  }
+.form-container form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color:#666;
+  }
+
+
 /* 
 ███████╗ ░█████╗░ ░█████╗░ ████████╗ ███████╗ ██████╗░
 ██╔════╝ ██╔══██╗ ██╔══██╗ ╚══██╔══╝ ██╔════╝ ██╔══██╗

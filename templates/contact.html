@@ -89,30 +89,44 @@
         ****************** -->
         <div class="contact-col form-container">
           <h2>Contact Us</h2>
-          <form action="https://formspree.io/f/xbljkjdo" method="post">
-            <label for="Name">Full Name:</label>
-            <input
+
+          <form action="https://formspree.io/f/xbljkjdo" method="post" id="form" >
+
+
+    
+              
+              <label for="Name">Full Name:</label>
+              <input
               type="text"
               name="Name"
               id="Name"
               placeholder="E.g, Rajesh Kumar"
-              required
-            />
-            <label for="Number">Phone Number:</label>
+              onkeyup="validateName()"
+              
+              />
+              
+            
+              
+             
+             <label for="Number">Phone Number:</label>
             <input
-              type="number"
+              type="text"
               name="Number"
               id="Number"
               placeholder="E.g, +91 9940142346"
-              required
+              oninput="validatePhone()"
+        
             />
+            <span id="phoneError"></span>
             <label for="Location">Location:</label>
             <input
               type="text"
               name="Location"
               id="Location"
               placeholder="E.g, West Tambaram, Chennai, Tamil Nadu - 600 04"
-              required
+    
+              oninput="validateLocation()"
+            
             />
             <label for="Message">Message:</label>
             <textarea
@@ -120,8 +134,8 @@
               name="Message"
               id="Message"
               placeholder="Message"
-              required
-            ></textarea>
+              oninput="validateMessage()"
+            ></textarea> 
             <button type="submit" class="hero-btn red-btn">Send Message</button>
           </form>
         </div>
@@ -169,5 +183,8 @@
         navLinks.style.right = "-200px";
       }
     </script>
+
+
+<script src="../js/script.js"></script>
   </body>
 </html>
